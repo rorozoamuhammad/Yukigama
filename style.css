@@ -31,6 +31,7 @@ h1 {
     width: 100px;
     position: absolute;
     top: 5px;
+    font-family: 'Lobster', cursive;
 }
 h1:hover {
     cursor: pointer;
@@ -101,6 +102,9 @@ h2 {
 p {
     font-size: 1.5em;
     padding-left: 15px;
+}
+.hero h2 {
+    font-family: 'Lobster', cursive;
 }
 .features-1 {
     grid-area: feature1;
