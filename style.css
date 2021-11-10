@@ -52,13 +52,15 @@ ul {
 ul li {
     list-style: none;
     grid-area: pilihan;
+    
 }
 ul li a {
     text-decoration: none;
     color: black;
     padding-right: 30px;
-    text-align: center;
     display: block;
+    width: 50px;
+    text-align: center;
 }
 input {
     border-radius: 20px;
@@ -67,7 +69,7 @@ input {
     width: 100%;
 }
 ul li a:hover {
-    font-size: 18px;
+    text-shadow: 5px 5px 5px rgb(248, 183, 104);
     transition: 0.5s;
 }
 
@@ -170,6 +172,10 @@ img:hover {
 .anak-tunggal {
     display: none;
 }
+img {
+    width: 290px;
+    height: 290px;
+}
 
 
 /* footer */
@@ -229,8 +235,8 @@ img:hover {
         box-sizing: border-box;
     }
     img {
-        width: 200px;
-        height: 200px;
+        width: 216px;
+        height: 216px;
     }
     .anak-tunggal {
         display: none;
@@ -292,8 +298,8 @@ img:hover {
         box-sizing: border-box;
     }
     img {
-        width: 200px;
-        height: 200px;
+        width: 216px;
+        height: 216px;
     }
     .anak-tunggal {
         display: block;
@@ -356,13 +362,13 @@ img:hover {
     /* galery */
 
     .gambar {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         width: 90%;
         box-sizing: border-box;
     }
     img {
-        width: 210px;
-        height: 210px;
+        width: 435px;
+        height: 435px;
     }
     .anak-tunggal {
         display: none;
