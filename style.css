@@ -362,15 +362,45 @@ img {
     /* galery */
 
     .gambar {
-        grid-template-columns: 1fr;
-        width: 90%;
-        box-sizing: border-box;
+        grid-template-areas: 
+            "gambar 1"
+            "gambar 2"
+            "gambar 3"
+            "gambar 4"
+            "gambar 5"
+            "gambar 6"
+            "gambar 7"
+            "gambar 8";
     }
-    img {
-        width: 435px;
-        height: 435px;
+    .satu {
+        grid-area: gambar 1;
+    }
+    .dua {
+        grid-area: gambar 2;
+    }
+    .tiga {
+        grid-area: gambar 3;
+    }
+    .empat {
+        grid-area: gambar 4;
+    }
+    .lima {
+        grid-area: gambar 5;
+    }
+    .enam {
+        grid-area: gambar 6;
+    }
+    .tujuh {
+        grid-area: gambar 7;
+    }
+    .delapan {
+        grid-area: gambar 8;
     }
     .anak-tunggal {
         display: none;
+    }
+    img {
+        width: 436px;
+        height: 436px;
     }
 }
